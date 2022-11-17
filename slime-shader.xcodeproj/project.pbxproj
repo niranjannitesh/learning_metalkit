@@ -8,18 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		53DBC3F22926D35600804401 /* slime_shaderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DBC3F12926D35600804401 /* slime_shaderApp.swift */; };
-		53DBC3F42926D35600804401 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DBC3F32926D35600804401 /* ContentView.swift */; };
 		53DBC3F62926D35700804401 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53DBC3F52926D35700804401 /* Assets.xcassets */; };
 		53DBC3FA2926D35700804401 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53DBC3F92926D35700804401 /* Preview Assets.xcassets */; };
+		53DBC4032926D81000804401 /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DBC4022926D81000804401 /* Renderer.swift */; };
+		53F1B31A2926E52A004903E8 /* Shader.metal in Sources */ = {isa = PBXBuildFile; fileRef = 53F1B3192926E52A004903E8 /* Shader.metal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		53DBC3EE2926D35600804401 /* slime-shader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "slime-shader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		53DBC3F12926D35600804401 /* slime_shaderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = slime_shaderApp.swift; sourceTree = "<group>"; };
-		53DBC3F32926D35600804401 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		53DBC3F52926D35700804401 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		53DBC3F72926D35700804401 /* slime_shader.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = slime_shader.entitlements; sourceTree = "<group>"; };
 		53DBC3F92926D35700804401 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		53DBC4022926D81000804401 /* Renderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
+		53F1B3192926E52A004903E8 /* Shader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shader.metal; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +55,8 @@
 			isa = PBXGroup;
 			children = (
 				53DBC3F12926D35600804401 /* slime_shaderApp.swift */,
-				53DBC3F32926D35600804401 /* ContentView.swift */,
+				53DBC4022926D81000804401 /* Renderer.swift */,
+				53F1B3192926E52A004903E8 /* Shader.metal */,
 				53DBC3F52926D35700804401 /* Assets.xcassets */,
 				53DBC3F72926D35700804401 /* slime_shader.entitlements */,
 				53DBC3F82926D35700804401 /* Preview Content */,
@@ -139,7 +142,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53DBC3F42926D35600804401 /* ContentView.swift in Sources */,
+				53F1B31A2926E52A004903E8 /* Shader.metal in Sources */,
+				53DBC4032926D81000804401 /* Renderer.swift in Sources */,
 				53DBC3F22926D35600804401 /* slime_shaderApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
